@@ -1,0 +1,2207 @@
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Деление на ноль при операции с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_DIVIDE_BY_ZERO (0xC000008E) при выполнении кода по адресу 0x0041EA18 в функции graphOfTheEquation() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 42 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x006E68FC (32-bit), Flags: Cmdre0, Thread: 0x5404 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0041EA18 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:42:
+
+     40:         compression = compression2;
+     41:     }
+=>   42:     double reverseCompression = 1 / compression;
+     43:     Equation equation = {equation1.coeff1 * scale, equation1.coeff2 * scale, equation1.coeff3 * scale};
+     44:     CoordinateCenter center = {0, 0};
+
+# 1 0x0041E8EB in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:25:
+
+     23: int main(){
+     24:     Equation equation = {-14, 29, -250};
+=>   25:     graphOfTheEquation(1200, 800, equation);
+     26:     return 0;
+     27: }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 27 2026 19:39:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 27 2026 19:40:01
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Деление на ноль при операции с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_DIVIDE_BY_ZERO (0xC000008E) при выполнении кода по адресу 0x0041EA18 в функции graphOfTheEquation() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 42 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x006E68FC (32-bit), Flags: Cmdre0, Thread: 0x5404 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0041EA18 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:42:
+
+     40:         compression = compression2;
+     41:     }
+=>   42:     double reverseCompression = 1 / compression;
+     43:     Equation equation = {equation1.coeff1 * scale, equation1.coeff2 * scale, equation1.coeff3 * scale};
+     44:     CoordinateCenter center = {0, 0};
+
+# 1 0x0041E8EB in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:25:
+
+     23: int main(){
+     24:     Equation equation = {-14, 29, -250};
+=>   25:     graphOfTheEquation(1200, 800, equation);
+     26:     return 0;
+     27: }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 27 2026 19:39:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 27 2026 19:40:01
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Деление на ноль при операции с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_DIVIDE_BY_ZERO (0xC000008E) при выполнении кода по адресу 0x0041EA18 в функции graphOfTheEquation() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 42 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x006E68FC (32-bit), Flags: Cmdre0, Thread: 0x4140 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0041EA18 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:42:
+
+     40:     //     compression = compression2;
+     41:     // }
+=>   42:     double reverseCompression = 1 / compression;
+     43:     Equation equation = {equation1.coeff1 * scale, equation1.coeff2 * scale, equation1.coeff3 * scale};
+     44:     CoordinateCenter center = {0, 0};
+
+# 1 0x0041E8EB in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:25:
+
+     23: int main(){
+     24:     Equation equation = {-14, 29, -250};
+=>   25:     graphOfTheEquation(1200, 800, equation);
+     26:     return 0;
+     27: }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 27 2026 19:39:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 27 2026 19:43:00
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Деление на ноль при операции с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_DIVIDE_BY_ZERO (0xC000008E) при выполнении кода по адресу 0x0041EA18 в функции graphOfTheEquation() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 42 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x006E68FC (32-bit), Flags: Cmdre0, Thread: 0x4140 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0041EA18 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:42:
+
+     40:     //     compression = compression2;
+     41:     // }
+=>   42:     double reverseCompression = 1 / compression;
+     43:     Equation equation = {equation1.coeff1 * scale, equation1.coeff2 * scale, equation1.coeff3 * scale};
+     44:     CoordinateCenter center = {0, 0};
+
+# 1 0x0041E8EB in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:25:
+
+     23: int main(){
+     24:     Equation equation = {-14, 29, -250};
+=>   25:     graphOfTheEquation(1200, 800, equation);
+     26:     return 0;
+     27: }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 27 2026 19:39:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 27 2026 19:43:00
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe, файл: c:\users\иван\downloads\codeblocks\mingw\include\txlib.h, строка: 8956, функция: HWND__* {anonymous}::TX::txCreateWindow(double, double, bool),
+
+Сообщение: Окно рисования уже создано!
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x503C (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00402E58 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txCreateWindow() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:8956
+
+# 1 0x0041FA63 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:66:
+
+     64:     double reverseCompression = 1 / compression;
+     65: 
+=>   66:     txCreateWindow (lengthX, lengthY);
+     67:     printCoordinateAxes(lengthX, lengthY);
+     68: 
+
+# 2 0x0041F824 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:42:
+
+     40:     Equation equation = {10, 36, 25};
+     41:     while(true){
+=>   42:         graphOfTheEquation(1200, 800, equation);
+     43:     }
+     44:     return 0;
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 16:39:32, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 16:39:34
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00416510 в функции (anonymous namespace)::TX::txDrawText() в файле c:/users/иван/downloads/codeblocks/mingw/include/txlib.h на строке 13824 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x21F0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416510 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txDrawText() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:13824
+
+# 1 0x0041FEF9 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:91:
+
+     89: 
+     90:     txDrawText(reverseCompression * x1 - 50 + lengthX/2, center.y + 5, reverseCompression*x1 + lengthX/2 + 50, center.y + 25, sol1str);
+=>   91:     txDrawText(reverseCompression * x2 + lengthX/2 - 50, center.y + 5, reverseCompression*x2 + lengthX/2 + 50, center.y + 25, sol2str); 
+     92:     drawZoomButtons(lengthX, lengthY, rectangleZoomIn, rectangleZoomOut);
+     93:     while(true){
+
+# 2 0x0041F99C in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 1;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 20:03:51, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 20:03:54
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00416510 в функции (anonymous namespace)::TX::txDrawText() в файле c:/users/иван/downloads/codeblocks/mingw/include/txlib.h на строке 13824 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x21F0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416510 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txDrawText() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:13824
+
+# 1 0x0041FEF9 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:91:
+
+     89: 
+     90:     txDrawText(reverseCompression * x1 - 50 + lengthX/2, center.y + 5, reverseCompression*x1 + lengthX/2 + 50, center.y + 25, sol1str);
+=>   91:     txDrawText(reverseCompression * x2 + lengthX/2 - 50, center.y + 5, reverseCompression*x2 + lengthX/2 + 50, center.y + 25, sol2str); 
+     92:     drawZoomButtons(lengthX, lengthY, rectangleZoomIn, rectangleZoomOut);
+     93:     while(true){
+
+# 2 0x0041F99C in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 1;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 20:03:51, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 20:03:54
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00416510 в функции (anonymous namespace)::TX::txDrawText() в файле c:/users/иван/downloads/codeblocks/mingw/include/txlib.h на строке 13824 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x2AD8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416510 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txDrawText() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:13824
+
+# 1 0x0041FEF9 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:91:
+
+     89: 
+     90:     txDrawText(reverseCompression * x1 - 50 + lengthX/2, center.y + 5, reverseCompression*x1 + lengthX/2 + 50, center.y + 25, sol1str);
+=>   91:     txDrawText(reverseCompression * x2 + lengthX/2 - 50, center.y + 5, reverseCompression*x2 + lengthX/2 + 50, center.y + 25, sol2str); 
+     92:     drawZoomButtons(lengthX, lengthY, rectangleZoomIn, rectangleZoomOut);
+     93:     while(true){
+
+# 2 0x0041F99C in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 1;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 20:04:55, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 20:04:58
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00416510 в функции (anonymous namespace)::TX::txDrawText() в файле c:/users/иван/downloads/codeblocks/mingw/include/txlib.h на строке 13824 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x2AD8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416510 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txDrawText() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:13824
+
+# 1 0x0041FEF9 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:91:
+
+     89: 
+     90:     txDrawText(reverseCompression * x1 - 50 + lengthX/2, center.y + 5, reverseCompression*x1 + lengthX/2 + 50, center.y + 25, sol1str);
+=>   91:     txDrawText(reverseCompression * x2 + lengthX/2 - 50, center.y + 5, reverseCompression*x2 + lengthX/2 + 50, center.y + 25, sol2str); 
+     92:     drawZoomButtons(lengthX, lengthY, rectangleZoomIn, rectangleZoomOut);
+     93:     while(true){
+
+# 2 0x0041F99C in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 1;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 20:04:55, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 20:04:58
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Деление на ноль при операции с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_DIVIDE_BY_ZERO (0xC000008E) при выполнении кода по адресу 0x0041FD18 в функции graphOfTheEquation() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 83 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x4580 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0041FD18 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:83:
+
+     81:     }
+     82:     // double compression = calculateCompression(lengthX, lengthY, coeffs, signOfCoeff1);
+=>   83:     double reverseCompression = 1 / *scale;
+     84: 
+     85:     // txCreateWindow (lengthX, lengthY);
+
+# 1 0x0041F99C in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 1/2;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 20:12:34, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 20:12:36
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Деление на ноль при операции с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_DIVIDE_BY_ZERO (0xC000008E) при выполнении кода по адресу 0x0041FD18 в функции graphOfTheEquation() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 83 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x4580 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0041FD18 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:83:
+
+     81:     }
+     82:     // double compression = calculateCompression(lengthX, lengthY, coeffs, signOfCoeff1);
+=>   83:     double reverseCompression = 1 / *scale;
+     84: 
+     85:     // txCreateWindow (lengthX, lengthY);
+
+# 1 0x0041F99C in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 1/2;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 20:12:34, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 20:12:36
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00420430 в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 159 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x21E4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00420430 in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:159:
+
+    157:         double x3 = -x0; 
+    158:         double y2 = coeffs[0] * x3 * x3 + coeffs[1] * x3 + coeffs[2];    
+=>  159:         txSetPixel(x + center.x, center.y - (int)y1, TX_WHITE);
+    160:         txSetPixel(center.x - x, center.y - (int)y2, TX_WHITE);
+    161:         // txSleep(1);  
+
+# 1 0x0041FD53 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:88:
+
+     86:     printCoordinateAxes(lengthX, lengthY);
+     87: 
+=>   88:     drawParabola(coeffs, *scale, center);
+     89: 
+     90:     txDrawText(reverseCompression * x1 - 50 + lengthX/2, center.y + 5,
+
+# 2 0x0041F9A0 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 9;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 20:15:46, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 20:15:49
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00420430 в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 159 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x21E4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00420430 in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:159:
+
+    157:         double x3 = -x0; 
+    158:         double y2 = coeffs[0] * x3 * x3 + coeffs[1] * x3 + coeffs[2];    
+=>  159:         txSetPixel(x + center.x, center.y - (int)y1, TX_WHITE);
+    160:         txSetPixel(center.x - x, center.y - (int)y2, TX_WHITE);
+    161:         // txSleep(1);  
+
+# 1 0x0041FD53 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:88:
+
+     86:     printCoordinateAxes(lengthX, lengthY);
+     87: 
+=>   88:     drawParabola(coeffs, *scale, center);
+     89: 
+     90:     txDrawText(reverseCompression * x1 - 50 + lengthX/2, center.y + 5,
+
+# 2 0x0041F9A0 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 9;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 20:15:46, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 20:15:49
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00420436 в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 159 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x30C8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00420436 in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:159:
+
+    157:         double x3 = -x0; 
+    158:         double y2 = coeffs[0] * x3 * x3 + coeffs[1] * x3 + coeffs[2];    
+=>  159:         txSetPixel(x + center.x, center.y - (int)y1, TX_WHITE);
+    160:         txSetPixel(center.x - x, center.y - (int)y2, TX_WHITE);
+    161:         // txSleep(1);  
+
+# 1 0x0041FD53 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:88:
+
+     86:     printCoordinateAxes(lengthX, lengthY);
+     87: 
+=>   88:     drawParabola(coeffs, *scale, center);
+     89: 
+     90:     txDrawText(reverseCompression * x1 - 50 + lengthX/2, center.y + 5,
+
+# 2 0x0041F9A0 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 9;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 22:21:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 22:22:00
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00420436 в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 159 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x30C8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00420436 in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:159:
+
+    157:         double x3 = -x0; 
+    158:         double y2 = coeffs[0] * x3 * x3 + coeffs[1] * x3 + coeffs[2];    
+=>  159:         txSetPixel(x + center.x, center.y - (int)y1, TX_WHITE);
+    160:         txSetPixel(center.x - x, center.y - (int)y2, TX_WHITE);
+    161:         // txSleep(1);  
+
+# 1 0x0041FD53 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:88:
+
+     86:     printCoordinateAxes(lengthX, lengthY);
+     87: 
+=>   88:     drawParabola(coeffs, *scale, center);
+     89: 
+     90:     txDrawText(reverseCompression * x1 - 50 + lengthX/2, center.y + 5,
+
+# 2 0x0041F9A0 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 9;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 22:21:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 22:22:00
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x0042043C в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 160 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x188C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042043C in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:160:
+
+    158:         double x3 = -x0; 
+    159:         double y2 = coeffs[0] * x3 * x3 + coeffs[1] * x3 + coeffs[2];    
+=>  160:         txSetPixel(x + center.x, center.y - (int)y1, TX_WHITE);
+    161:         txSetPixel(center.x - x, center.y - (int)y2, TX_WHITE);
+    162:         // txSleep(1);  
+
+# 1 0x0041FD53 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:88:
+
+     86:     printCoordinateAxes(lengthX, lengthY);
+     87: 
+=>   88:     drawParabola(coeffs, *scale, center);
+     89: 
+     90:     txDrawText(reverseCompression * x1 - 50 + lengthX/2, center.y + 5,
+
+# 2 0x0041F9A0 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 9;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 22:23:02, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 22:23:04
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x0042043C в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 160 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x188C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042043C in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:160:
+
+    158:         double x3 = -x0; 
+    159:         double y2 = coeffs[0] * x3 * x3 + coeffs[1] * x3 + coeffs[2];    
+=>  160:         txSetPixel(x + center.x, center.y - (int)y1, TX_WHITE);
+    161:         txSetPixel(center.x - x, center.y - (int)y2, TX_WHITE);
+    162:         // txSleep(1);  
+
+# 1 0x0041FD53 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:88:
+
+     86:     printCoordinateAxes(lengthX, lengthY);
+     87: 
+=>   88:     drawParabola(coeffs, *scale, center);
+     89: 
+     90:     txDrawText(reverseCompression * x1 - 50 + lengthX/2, center.y + 5,
+
+# 2 0x0041F9A0 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 9;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 22:23:02, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 22:23:04
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x0042043C в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 160 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x17FC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042043C in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:160:
+
+    158:         double x3 = -x0; 
+    159:         double y2 = coeffs[0] * x3 * x3 + coeffs[1] * x3 + coeffs[2];    
+=>  160:         txSetPixel(x + center.x, center.y - (int)y1, TX_WHITE);
+    161:         txSetPixel(center.x - x, center.y - (int)y2, TX_WHITE);
+    162:         // txSleep(1);  
+
+# 1 0x0041FD53 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:88:
+
+     86:     printCoordinateAxes(lengthX, lengthY);
+     87: 
+=>   88:     drawParabola(coeffs, *scale, center);
+     89: 
+     90:     txDrawText(reverseCompression * x1 - 50 + lengthX/2, center.y + 5,
+
+# 2 0x0041F9A0 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 1;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 22:23:02, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 22:24:38
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x0042043C в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 160 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x17FC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042043C in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:160:
+
+    158:         double x3 = -x0; 
+    159:         double y2 = coeffs[0] * x3 * x3 + coeffs[1] * x3 + coeffs[2];    
+=>  160:         txSetPixel(x + center.x, center.y - (int)y1, TX_WHITE);
+    161:         txSetPixel(center.x - x, center.y - (int)y2, TX_WHITE);
+    162:         // txSleep(1);  
+
+# 1 0x0041FD53 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:88:
+
+     86:     printCoordinateAxes(lengthX, lengthY);
+     87: 
+=>   88:     drawParabola(coeffs, *scale, center);
+     89: 
+     90:     txDrawText(reverseCompression * x1 - 50 + lengthX/2, center.y + 5,
+
+# 2 0x0041F9A0 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 1;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 22:23:02, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 22:24:38
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00416510 в функции (anonymous namespace)::TX::txDrawText() в файле c:/users/иван/downloads/codeblocks/mingw/include/txlib.h на строке 13824 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x3D80 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416510 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txDrawText() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:13824
+
+# 1 0x0041FEF9 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:93:
+
+     91:                reverseCompression * x1 + lengthX/2 + 50, center.y + 25, sol1str);
+     92:     txDrawText(reverseCompression * x2 + lengthX/2 - 50, center.y + 5,
+=>   93:                reverseCompression*x2 + lengthX/2 + 50, center.y + 25, sol2str); 
+     94:     drawZoomButtons(lengthX, lengthY, rectangleZoomIn, rectangleZoomOut);
+     95:     while(true){
+
+# 2 0x0041F99C in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 1;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 22:31:25, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 22:31:28
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00416510 в функции (anonymous namespace)::TX::txDrawText() в файле c:/users/иван/downloads/codeblocks/mingw/include/txlib.h на строке 13824 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x3D80 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416510 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txDrawText() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:13824
+
+# 1 0x0041FEF9 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:93:
+
+     91:                reverseCompression * x1 + lengthX/2 + 50, center.y + 25, sol1str);
+     92:     txDrawText(reverseCompression * x2 + lengthX/2 - 50, center.y + 5,
+=>   93:                reverseCompression*x2 + lengthX/2 + 50, center.y + 25, sol2str); 
+     94:     drawZoomButtons(lengthX, lengthY, rectangleZoomIn, rectangleZoomOut);
+     95:     while(true){
+
+# 2 0x0041F99C in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 1;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 22:31:25, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 22:31:28
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x0042048E в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 161 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x3AB0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042048E in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:161:
+
+    159:         double x3 = -x0; 
+    160:         double y2 = coeffs[0] * x3 * x3 + coeffs[1] * x3 + coeffs[2];    
+=>  161:         txSetPixel(x + center.x, center.y - (int)y1, TX_WHITE);
+    162:         txSetPixel(center.x - x, center.y - (int)y2, TX_WHITE);
+    163:         //txSleep(1);  
+
+# 1 0x0041FD4F in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:88:
+
+     86:     printCoordinateAxes(lengthX, lengthY);
+     87: 
+=>   88:     drawParabola(coeffs, *scale, center);
+     89: 
+     90:     txDrawText(reverseCompression * x1 - 50 + lengthX/2, center.y + 5,
+
+# 2 0x0041F99C in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 1;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 22:34:03, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 22:34:06
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x0042048E в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 161 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x3AB0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042048E in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:161:
+
+    159:         double x3 = -x0; 
+    160:         double y2 = coeffs[0] * x3 * x3 + coeffs[1] * x3 + coeffs[2];    
+=>  161:         txSetPixel(x + center.x, center.y - (int)y1, TX_WHITE);
+    162:         txSetPixel(center.x - x, center.y - (int)y2, TX_WHITE);
+    163:         //txSleep(1);  
+
+# 1 0x0041FD4F in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:88:
+
+     86:     printCoordinateAxes(lengthX, lengthY);
+     87: 
+=>   88:     drawParabola(coeffs, *scale, center);
+     89: 
+     90:     txDrawText(reverseCompression * x1 - 50 + lengthX/2, center.y + 5,
+
+# 2 0x0041F99C in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:54:
+
+     52:     double scale = 1;
+     53:     while(true){
+=>   54:         graphOfTheEquation(1200, 800, equation, &scale);
+     55:         txSetFillColor(TX_BLACK);
+     56:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 28 2026 22:34:03, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 28 2026 22:34:06
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x004203E8 в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 144 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x31F8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004203E8 in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:144:
+
+    142:         double xScaled = scaleX * x;
+    143:         double y = scaleY * (coeffs[0] * xScaled * xScaled + coeffs[1] * xScaled + coeffs[2]);   
+=>  144:         txSetPixel(x + center.x, center.y - (int) y, TX_WHITE); 
+    145:         x++;
+    146:     }   
+
+# 1 0x0041FECB in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:105:
+
+    103:     printCoordinateAxes(*center, lengthX, lengthY);
+    104: 
+=>  105:     drawParabola(coeffs, *scaleX, *scaleY, (*center), lengthX);
+    106: 
+    107:     txDrawText(reverseCompression * x1 + (*center).x - 50, (*center).y + 5,
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:69:
+
+     67:     double scaleY = 1;
+     68:     while(true){
+=>   69:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     70:         txSetFillColor(TX_BLACK);
+     71:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 14:09:18, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 14:09:21
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x004203E8 в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 144 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x31F8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004203E8 in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:144:
+
+    142:         double xScaled = scaleX * x;
+    143:         double y = scaleY * (coeffs[0] * xScaled * xScaled + coeffs[1] * xScaled + coeffs[2]);   
+=>  144:         txSetPixel(x + center.x, center.y - (int) y, TX_WHITE); 
+    145:         x++;
+    146:     }   
+
+# 1 0x0041FECB in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:105:
+
+    103:     printCoordinateAxes(*center, lengthX, lengthY);
+    104: 
+=>  105:     drawParabola(coeffs, *scaleX, *scaleY, (*center), lengthX);
+    106: 
+    107:     txDrawText(reverseCompression * x1 + (*center).x - 50, (*center).y + 5,
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:69:
+
+     67:     double scaleY = 1;
+     68:     while(true){
+=>   69:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     70:         txSetFillColor(TX_BLACK);
+     71:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 14:09:18, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 14:09:21
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x004205C5 в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 152 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x562C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004205C5 in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:152:
+
+    150:         double xScaled = scaleX * x;
+    151:         double y = scaleY * (coeffs[0] * xScaled * xScaled + coeffs[1] * xScaled + coeffs[2]);   
+=>  152:         txSetPixel(x + center.x, center.y - (int) y, TX_WHITE); 
+    153:         x++;
+    154:     }   
+
+# 1 0x0041FEDD in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:105:
+
+    103:     printCoordinateAxes(*center, lengthX, lengthY);
+    104: 
+=>  105:     drawParabola(coeffs, *scaleX, *scaleY, (*center), lengthX);
+    106: 
+    107:     txDrawText(reverseCompression * x1 + (*center).x - 50, (*center).y + 5,
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:69:
+
+     67:     double scaleY = 1;
+     68:     while(true){
+=>   69:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     70:         txSetFillColor(TX_BLACK);
+     71:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 15:32:13, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 15:32:16
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x004205C5 в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 152 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x562C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004205C5 in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:152:
+
+    150:         double xScaled = scaleX * x;
+    151:         double y = scaleY * (coeffs[0] * xScaled * xScaled + coeffs[1] * xScaled + coeffs[2]);   
+=>  152:         txSetPixel(x + center.x, center.y - (int) y, TX_WHITE); 
+    153:         x++;
+    154:     }   
+
+# 1 0x0041FEDD in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:105:
+
+    103:     printCoordinateAxes(*center, lengthX, lengthY);
+    104: 
+=>  105:     drawParabola(coeffs, *scaleX, *scaleY, (*center), lengthX);
+    106: 
+    107:     txDrawText(reverseCompression * x1 + (*center).x - 50, (*center).y + 5,
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:69:
+
+     67:     double scaleY = 1;
+     68:     while(true){
+=>   69:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     70:         txSetFillColor(TX_BLACK);
+     71:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 15:32:13, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 15:32:16
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x004205C1 в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 151 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x3C8C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004205C1 in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:151:
+
+    149:         double xScaled = scaleX * x;
+    150:         double y = scaleY * (coeffs[0] * xScaled * xScaled + coeffs[1] * xScaled + coeffs[2]);   
+=>  151:         txSetPixel(x + center.x, center.y - (int) y, TX_WHITE); 
+    152:         x++;
+    153:     }   
+
+# 1 0x0041FEDD in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:105:
+
+    103:     printCoordinateAxes(*center, lengthX, lengthY);
+    104: 
+=>  105:     drawParabola(coeffs, *scaleX, *scaleY, (*center), lengthX);
+    106: 
+    107:     txDrawText(reverseCompression * x1 + (*center).x - 50, (*center).y + 5,
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:69:
+
+     67:     double scaleY = 1;
+     68:     while(true){
+=>   69:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     70:         txSetFillColor(TX_BLACK);
+     71:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 15:55:48, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 15:55:51
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x004205C1 в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 151 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x3C8C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004205C1 in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:151:
+
+    149:         double xScaled = scaleX * x;
+    150:         double y = scaleY * (coeffs[0] * xScaled * xScaled + coeffs[1] * xScaled + coeffs[2]);   
+=>  151:         txSetPixel(x + center.x, center.y - (int) y, TX_WHITE); 
+    152:         x++;
+    153:     }   
+
+# 1 0x0041FEDD in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:105:
+
+    103:     printCoordinateAxes(*center, lengthX, lengthY);
+    104: 
+=>  105:     drawParabola(coeffs, *scaleX, *scaleY, (*center), lengthX);
+    106: 
+    107:     txDrawText(reverseCompression * x1 + (*center).x - 50, (*center).y + 5,
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:69:
+
+     67:     double scaleY = 1;
+     68:     while(true){
+=>   69:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     70:         txSetFillColor(TX_BLACK);
+     71:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 15:55:48, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 15:55:51
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x0042071F в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 157 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x327C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042071F in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:157:
+
+    155:         double xScaled = - scaleX * x;
+    156:         double y = scaleY * (coeffs[0] * xScaled * xScaled + coeffs[1] * xScaled + coeffs[2]);
+=>  157:         txSetPixel(center.x - x, center.y - (int) y, TX_WHITE);
+    158:         x++;
+    159:     }
+
+# 1 0x0041FEDD in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:105:
+
+    103:     printCoordinateAxes(*center, lengthX, lengthY);
+    104: 
+=>  105:     drawParabola(coeffs, *scaleX, *scaleY, (*center), lengthX);
+    106: 
+    107:     txDrawText(reverseCompression * x1 + (*center).x - 50, (*center).y + 5,
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:69:
+
+     67:     double scaleY = 1;
+     68:     while(true){
+=>   69:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     70:         txSetFillColor(TX_BLACK);
+     71:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 15:56:50, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 15:56:52
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x0042071F в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 157 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x327C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042071F in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:157:
+
+    155:         double xScaled = - scaleX * x;
+    156:         double y = scaleY * (coeffs[0] * xScaled * xScaled + coeffs[1] * xScaled + coeffs[2]);
+=>  157:         txSetPixel(center.x - x, center.y - (int) y, TX_WHITE);
+    158:         x++;
+    159:     }
+
+# 1 0x0041FEDD in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:105:
+
+    103:     printCoordinateAxes(*center, lengthX, lengthY);
+    104: 
+=>  105:     drawParabola(coeffs, *scaleX, *scaleY, (*center), lengthX);
+    106: 
+    107:     txDrawText(reverseCompression * x1 + (*center).x - 50, (*center).y + 5,
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:69:
+
+     67:     double scaleY = 1;
+     68:     while(true){
+=>   69:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     70:         txSetFillColor(TX_BLACK);
+     71:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 15:56:50, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 15:56:53
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x0042063F в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 151 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x52C0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042063F in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:151:
+
+    149:         double xScaled = scaleX * x;
+    150:         double y = scaleY * (coeffs[0] * xScaled * xScaled + coeffs[1] * xScaled + coeffs[2]);   
+=>  151:         txSetPixel(x + center.x, center.y - (int) y, TX_WHITE); 
+    152:         x++;
+    153:     }   
+
+# 1 0x0041FEDD in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:105:
+
+    103:     printCoordinateAxes(*center, lengthX, lengthY);
+    104: 
+=>  105:     drawParabola(coeffs, *scaleX, *scaleY, (*center), lengthX);
+    106: 
+    107:     txDrawText(reverseCompression * x1 + (*center).x - 50, (*center).y + 5,
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:69:
+
+     67:     double scaleY = 1;
+     68:     while(true){
+=>   69:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     70:         txSetFillColor(TX_BLACK);
+     71:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 16:01:17, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 16:01:20
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x0042063F в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 151 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x52C0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042063F in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:151:
+
+    149:         double xScaled = scaleX * x;
+    150:         double y = scaleY * (coeffs[0] * xScaled * xScaled + coeffs[1] * xScaled + coeffs[2]);   
+=>  151:         txSetPixel(x + center.x, center.y - (int) y, TX_WHITE); 
+    152:         x++;
+    153:     }   
+
+# 1 0x0041FEDD in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:105:
+
+    103:     printCoordinateAxes(*center, lengthX, lengthY);
+    104: 
+=>  105:     drawParabola(coeffs, *scaleX, *scaleY, (*center), lengthX);
+    106: 
+    107:     txDrawText(reverseCompression * x1 + (*center).x - 50, (*center).y + 5,
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:69:
+
+     67:     double scaleY = 1;
+     68:     while(true){
+=>   69:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     70:         txSetFillColor(TX_BLACK);
+     71:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 16:01:17, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 16:01:20
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00416510 в функции (anonymous namespace)::TX::txDrawText() в файле c:/users/иван/downloads/codeblocks/mingw/include/txlib.h на строке 13824 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x4924 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416510 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txDrawText() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:13824
+
+# 1 0x0041FF98 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:111:
+
+    109: 
+    110:     txDrawText(reverseCompression * x1 + (*center).x - 50, (*center).y + 5,
+=>  111:                reverseCompression * x1 + (*center).x + 50, (*center).y + 25, sol1str);
+    112:     txDrawText(reverseCompression * x2 + (*center).x - 50, (*center).y + 5,
+    113:                reverseCompression * x2 + (*center).x + 50, (*center).y + 25, sol2str); 
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:72:
+
+     70:     double scaleY = 1;
+     71:     while(true){
+=>   72:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     73:         txSetFillColor(TX_BLACK);
+     74:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 16:50:56, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 16:50:59
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00416510 в функции (anonymous namespace)::TX::txDrawText() в файле c:/users/иван/downloads/codeblocks/mingw/include/txlib.h на строке 13824 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x4924 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416510 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txDrawText() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:13824
+
+# 1 0x0041FF98 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:111:
+
+    109: 
+    110:     txDrawText(reverseCompression * x1 + (*center).x - 50, (*center).y + 5,
+=>  111:                reverseCompression * x1 + (*center).x + 50, (*center).y + 25, sol1str);
+    112:     txDrawText(reverseCompression * x2 + (*center).x - 50, (*center).y + 5,
+    113:                reverseCompression * x2 + (*center).x + 50, (*center).y + 25, sol2str); 
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:72:
+
+     70:     double scaleY = 1;
+     71:     while(true){
+=>   72:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     73:         txSetFillColor(TX_BLACK);
+     74:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 16:50:56, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 16:50:59
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x0042043C в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 156 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x37A8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042043C in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:156:
+
+    154:         double xScaled = scaleX * x;
+    155:         double y = scaleY * (coeffs[0] * xScaled * xScaled + coeffs[1] * xScaled + coeffs[2]);   
+=>  156:         txSetPixel(x + center.x, center.y - (int) y, TX_WHITE); 
+    157:         x++;
+    158:     }   
+
+# 1 0x0041FECB in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:110:
+
+    108:     printCoordinateAxes(*center, lengthX, lengthY);
+    109: 
+=>  110:     drawParabola(coeffs, *scaleX, *scaleY, *center, lengthX);
+    111: 
+    112:     txDrawText(reverseCompression * x1 + center->x - 50, center->y + 5,
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:74:
+
+     72: 
+     73:     while(true){
+=>   74:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     75:         txSetFillColor(TX_BLACK);
+     76:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 17:43:16, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 17:43:19
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x0042043C в функции drawParabola() в файле C:/Users/Иван/Documents/proektCopy/./graphics.cpp на строке 156 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x37A8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042043C in C:\Users\Иван\Documents\proektCopy\graphic.exe: drawParabola() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:156:
+
+    154:         double xScaled = scaleX * x;
+    155:         double y = scaleY * (coeffs[0] * xScaled * xScaled + coeffs[1] * xScaled + coeffs[2]);   
+=>  156:         txSetPixel(x + center.x, center.y - (int) y, TX_WHITE); 
+    157:         x++;
+    158:     }   
+
+# 1 0x0041FECB in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:110:
+
+    108:     printCoordinateAxes(*center, lengthX, lengthY);
+    109: 
+=>  110:     drawParabola(coeffs, *scaleX, *scaleY, *center, lengthX);
+    111: 
+    112:     txDrawText(reverseCompression * x1 + center->x - 50, center->y + 5,
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:74:
+
+     72: 
+     73:     while(true){
+=>   74:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     75:         txSetFillColor(TX_BLACK);
+     76:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 17:43:16, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 17:43:20
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00416510 в функции (anonymous namespace)::TX::txDrawText() в файле c:/users/иван/downloads/codeblocks/mingw/include/txlib.h на строке 13824 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x45CC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416510 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txDrawText() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:13824
+
+# 1 0x0041FF98 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:113:
+
+    111: 
+    112:     txDrawText(reverseCompression * x1 + center->x - 50, center->y + 5,
+=>  113:                reverseCompression * x1 + center->x + 50, center->y + 25, sol1str);
+    114:     txDrawText(reverseCompression * x2 + center->x - 50, center->y + 5,
+    115:                reverseCompression * x2 + center->x + 50, center->y + 25, sol2str); 
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:74:
+
+     72: 
+     73:     while(true){
+=>   74:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     75:         txSetFillColor(TX_BLACK);
+     76:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 17:46:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 17:47:02
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00416510 в функции (anonymous namespace)::TX::txDrawText() в файле c:/users/иван/downloads/codeblocks/mingw/include/txlib.h на строке 13824 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x45CC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416510 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txDrawText() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:13824
+
+# 1 0x0041FF98 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:113:
+
+    111: 
+    112:     txDrawText(reverseCompression * x1 + center->x - 50, center->y + 5,
+=>  113:                reverseCompression * x1 + center->x + 50, center->y + 25, sol1str);
+    114:     txDrawText(reverseCompression * x2 + center->x - 50, center->y + 5,
+    115:                reverseCompression * x2 + center->x + 50, center->y + 25, sol2str); 
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:74:
+
+     72: 
+     73:     while(true){
+=>   74:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     75:         txSetFillColor(TX_BLACK);
+     76:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 17:46:58, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 17:47:02
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00416510 в функции (anonymous namespace)::TX::txDrawText() в файле c:/users/иван/downloads/codeblocks/mingw/include/txlib.h на строке 13824 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x3210 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416510 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txDrawText() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:13824
+
+# 1 0x0041FF98 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:113:
+
+    111: 
+    112:     txDrawText(reverseCompression * x1 + center->x - 50, center->y + 5,
+=>  113:                reverseCompression * x1 + center->x + 50, center->y + 25, sol1str);
+    114:     txDrawText(reverseCompression * x2 + center->x - 50, center->y + 5,
+    115:                reverseCompression * x2 + center->x + 50, center->y + 25, sol2str); 
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:74:
+
+     72: 
+     73:     while(true){
+=>   74:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     75:         txSetFillColor(TX_BLACK);
+     76:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 17:47:22, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 17:47:26
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x00416510 в функции (anonymous namespace)::TX::txDrawText() в файле c:/users/иван/downloads/codeblocks/mingw/include/txlib.h на строке 13824 в модуле C:\Users\Иван\Documents\proektCopy\graphic.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F81DC (32-bit), Flags: CMdRe0, Thread: 0x3210 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416510 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txDrawText() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:13824
+
+# 1 0x0041FF98 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:113:
+
+    111: 
+    112:     txDrawText(reverseCompression * x1 + center->x - 50, center->y + 5,
+=>  113:                reverseCompression * x1 + center->x + 50, center->y + 25, sol1str);
+    114:     txDrawText(reverseCompression * x2 + center->x - 50, center->y + 5,
+    115:                reverseCompression * x2 + center->x + 50, center->y + 25, sol2str); 
+
+# 2 0x0041F9E2 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:74:
+
+     72: 
+     73:     while(true){
+=>   74:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     75:         txSetFillColor(TX_BLACK);
+     76:         txClear();
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 17:47:22, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 17:47:26
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------

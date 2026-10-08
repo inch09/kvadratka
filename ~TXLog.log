@@ -1,0 +1,357 @@
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proekt\prorub.exe, файл: .\solverEq.cpp, строка: 16, функция: CountSol solveQuadraticEquation(double*, double*, double*),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "d > 0".
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x005EAB1C (32-bit), Flags: cmdre0, Thread: 0x29E4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0045B94A in C:\Users\Иван\Documents\proekt\prorub.exe: solveQuadraticEquation() at C:/Users/Иван/Documents/proekt/./solverEq.cpp:16:
+
+     14:         }
+     15:         else if(isZero(d)){
+=>   16:             assert(d > 0);
+     17:             *firstSol = -coeffs[SECOND_COEFF] / ( 2 * coeffs[FIRST_COEFF]);
+     18:             sol = ONE_SOL;
+
+# 1 0x0043D030 in C:\Users\Иван\Documents\proekt\prorub.exe: runTest() at C:/Users/Иван/Documents/proekt/./testFile.cpp:40:
+
+     38:     double coeffs[3] = {coeff1, coeff2, coeff3};
+     39:     double firstSol = 0, secondSol = 0;
+=>   40:     enum CountSol countSol = solveQuadraticEquation(coeffs, &firstSol, &secondSol);
+     41:     bool compare = toCompare(firstSol, secondSol, countSol, expSol1, expSol2, expCountSol);
+     42:     if(compare){
+
+# 2 0x0047A2AA in C:\Users\Иван\Documents\proekt\prorub.exe: printTestErrInLog() at C:/Users/Иван/Documents/proekt/./printTestErrInLog.cpp:31:
+
+     29:             default:;
+     30:         }
+=>   31:         if(runTest(coeff1, coeff2, coeff3, expCountSol1, expSol1, expSol2)){
+     32:             continue;
+     33:         }
+
+# 3 0x0041E8B0 in C:\Users\Иван\Documents\proekt\prorub.exe: main() at C:/Users/Иван/Documents/proekt/./prototype.cpp:8:
+
+      6:         if(argc > 1){
+      7:                 if(strcmp(argv[1], "log") == 0){
+=>    8:                         printTestErrInLog();
+      9:                 }
+     10:                 else if(strcmp(argv[1], "console") == 0){
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 23 2026 20:24:45, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 23 2026 20:24:53
+
+Run file:	C:\Users\Иван\Documents\proekt\prorub.exe
+Directory:	C:\Users\Иван\Documents\proekt
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proekt\prorub.exe, файл: .\solverEq.cpp, строка: 16, функция: CountSol solveQuadraticEquation(double*, double*, double*),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "d > 0".
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x005EAB1C (32-bit), Flags: cmdre0, Thread: 0x2C3C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0045B94A in C:\Users\Иван\Documents\proekt\prorub.exe: solveQuadraticEquation() at C:/Users/Иван/Documents/proekt/./solverEq.cpp:16:
+
+     14:         }
+     15:         else if(isZero(d)){
+=>   16:             assert(d > 0);
+     17:             *firstSol = -coeffs[SECOND_COEFF] / ( 2 * coeffs[FIRST_COEFF]);
+     18:             sol = ONE_SOL;
+
+# 1 0x0043D030 in C:\Users\Иван\Documents\proekt\prorub.exe: runTest() at C:/Users/Иван/Documents/proekt/./testFile.cpp:40:
+
+     38:     double coeffs[3] = {coeff1, coeff2, coeff3};
+     39:     double firstSol = 0, secondSol = 0;
+=>   40:     enum CountSol countSol = solveQuadraticEquation(coeffs, &firstSol, &secondSol);
+     41:     bool compare = toCompare(firstSol, secondSol, countSol, expSol1, expSol2, expCountSol);
+     42:     if(compare){
+
+# 2 0x0047A2AA in C:\Users\Иван\Documents\proekt\prorub.exe: printTestErrInLog() at C:/Users/Иван/Documents/proekt/./printTestErrInLog.cpp:31:
+
+     29:             default:;
+     30:         }
+=>   31:         if(runTest(coeff1, coeff2, coeff3, expCountSol1, expSol1, expSol2)){
+     32:             continue;
+     33:         }
+
+# 3 0x0041E8B0 in C:\Users\Иван\Documents\proekt\prorub.exe: main() at C:/Users/Иван/Documents/proekt/./prototype.cpp:8:
+
+      6:         if(argc > 1){
+      7:                 if(strcmp(argv[1], "log") == 0){
+=>    8:                         printTestErrInLog();
+      9:                 }
+     10:                 else if(strcmp(argv[1], "console") == 0){
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 23 2026 20:25:31, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 23 2026 20:25:37
+
+Run file:	C:\Users\Иван\Documents\proekt\prorub.exe
+Directory:	C:\Users\Иван\Documents\proekt
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe, файл: c:\users\иван\downloads\codeblocks\mingw\include\txlib.h, строка: 13813, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр x0 = 493.857 больше, чем x1 = 481.57. Текст выводиться не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x005DC1DC (32-bit), Flags: cMdRe0, Thread: 0x1DCC (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416493 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txDrawText() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:13813
+
+# 1 0x0041F3D3 in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:88:
+
+     86:     }    
+     87:         txDrawText(reverseCompression*x1 - 50 + lengthX/2, center.y + 5, 10*x1 + lengthX/2 + 50, center.y + 25, sol1);
+=>   88:         txDrawText(reverseCompression*x2 + lengthX/2 - 50, center.y + 5, 10*x2 + lengthX/2 + 50, center.y + 25, sol2);
+     89: }
+     90: 
+
+# 2 0x0041E8E7 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:25:
+
+     23: int main(){
+     24:     Equation equation = {1, 2, -250};
+=>   25:     graphOfTheEquation(1200, 800, equation);
+     26:     return 0;
+     27: }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 27 2026 19:11:04, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 27 2026 19:11:12
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe, файл: c:\users\иван\downloads\codeblocks\mingw\include\txlib.h, строка: 13813, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр x0 = 533.157 больше, чем x1 = 481.57. Текст выводиться не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x005DC1DC (32-bit), Flags: cMdRe0, Thread: 0x56F4 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416493 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txDrawText() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:13813
+
+# 1 0x0041F3CF in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:88:
+
+     86:     }    
+     87:         txDrawText(reverseCompression*x1 - 50 + lengthX/2, center.y + 5, 10*x1 + lengthX/2 + 50, center.y + 25, sol1);
+=>   88:         txDrawText(reverseCompression*x2 + lengthX/2 - 50, center.y + 5, 10*x2 + lengthX/2 + 50, center.y + 25, sol2);
+     89: }
+     90: 
+
+# 2 0x0041E8E7 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:25:
+
+     23: int main(){
+     24:     Equation equation = {1, 2, -250};
+=>   25:     graphOfTheEquation(1200, 800, equation);
+     26:     return 0;
+     27: }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 27 2026 19:19:42, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 27 2026 19:19:52
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe, файл: c:\users\иван\downloads\codeblocks\mingw\include\txlib.h, строка: 13813, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр x0 = 1143.72 больше, чем x1 = 798.43. Текст выводиться не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x005DC1DC (32-bit), Flags: cMdRe0, Thread: 0x2564 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416493 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txDrawText() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:13813
+
+# 1 0x0041F2ED in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:87:
+
+     85:         }
+     86:     }    
+=>   87:         txDrawText(reverseCompression*x1 - 50 + lengthX/2, center.y + 5, 10*x1 + lengthX/2 + 50, center.y + 25, sol1);
+     88:         txDrawText(reverseCompression*x2 + lengthX/2 - 50, center.y + 5, 10*x2 + lengthX/2 + 50, center.y + 25, sol2);
+     89: }
+
+# 2 0x0041E8E7 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:25:
+
+     23: int main(){
+     24:     Equation equation = {1, 2, -250};
+=>   25:     graphOfTheEquation(1200, 800, equation);
+     26:     return 0;
+     27: }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 27 2026 19:23:51, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 27 2026 19:24:01
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe, файл: c:\users\иван\downloads\codeblocks\mingw\include\txlib.h, строка: 13813, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр x0 = 921.074 больше, чем x1 = 798.43. Текст выводиться не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x005DC1DC (32-bit), Flags: cMdRe0, Thread: 0x3EFC (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416493 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txDrawText() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:13813
+
+# 1 0x0041F2ED in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:87:
+
+     85:         }
+     86:     }    
+=>   87:         txDrawText(reverseCompression*x1 - 50 + lengthX/2, center.y + 5, 10*x1 + lengthX/2 + 50, center.y + 25, sol1);
+     88:         txDrawText(reverseCompression*x2 + lengthX/2 - 50, center.y + 5, 10*x2 + lengthX/2 + 50, center.y + 25, sol2);
+     89: }
+
+# 2 0x0041E8E7 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:25:
+
+     23: int main(){
+     24:     Equation equation = {1, 2, -250};
+=>   25:     graphOfTheEquation(1200, 800, equation);
+     26:     return 0;
+     27: }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 27 2026 19:25:28, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 27 2026 19:25:36
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\graphic.exe, файл: c:\users\иван\downloads\codeblocks\mingw\include\txlib.h, строка: 13813, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр x0 = 921.074 больше, чем x1 = 798.43. Текст выводиться не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x005DC1DC (32-bit), Flags: cMdRe0, Thread: 0x4B68 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416493 in C:\Users\Иван\Documents\proektCopy\graphic.exe: (anonymous namespace)::TX::txDrawText() at c:/users/иван/downloads/codeblocks/mingw/include/txlib.h:13813
+
+# 1 0x0041F2ED in C:\Users\Иван\Documents\proektCopy\graphic.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:87:
+
+     85:         }
+     86:     }    
+=>   87:         txDrawText(reverseCompression*x1 - 50 + lengthX/2, center.y + 5, 10*x1 + lengthX/2 + 50, center.y + 25, sol1);
+     88:         txDrawText(reverseCompression*x2 + lengthX/2 - 50, center.y + 5, 10*x2 + lengthX/2 + 50, center.y + 25, sol2);
+     89: }
+
+# 2 0x0041E8E7 in C:\Users\Иван\Documents\proektCopy\graphic.exe: main() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:25:
+
+     23: int main(){
+     24:     Equation equation = {1, 2, -250};
+=>   25:     graphOfTheEquation(1200, 800, equation);
+     26:     return 0;
+     27: }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 27 2026 19:27:47, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 27 2026 19:27:54
+
+Run file:	C:\Users\Иван\Documents\proektCopy\graphic.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------

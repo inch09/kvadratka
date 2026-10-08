@@ -1,0 +1,494 @@
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proektCopy\main.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x74B17F29 в функции $I10_OUTPUT(). Попытка записать данные по адресу NULL в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: Cmdre0, Thread: 0x4AB0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x74B17F29 in C:\Windows\System32\msvcrt.dll: $I10_OUTPUT()
+# 1 0x74B04A06 in C:\Windows\System32\msvcrt.dll: ungetwc()
+# 2 0x74AF87FD in C:\Windows\System32\msvcrt.dll: scanf()
+# 3 0x74AF8798 in C:\Windows\System32\msvcrt.dll: scanf()
+
+# 4 0x0041F93E in C:\Users\Иван\Documents\proektCopy\main.exe: graphic() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:65:
+
+     63:     printTitleForGraphicMode();
+     64:     Equation equation = {.coeff1 = 1, .coeff2 = -16, .coeff3 = -40};
+=>   65:     scanf("%lf %lf %lf", equation.coeff1, equation.coeff2, equation.coeff3);
+     66: 
+     67:     int lengthX = 1200;
+
+# 5 0x00420EDC in C:\Users\Иван\Documents\proektCopy\main.exe: main() at C:/Users/Иван/Documents/proektCopy/./main.cpp:26:
+
+     24:         case USERMODE: userMode();
+     25:             break;
+=>   26:         case GRAPHIC: graphic();
+     27:             break;
+     28:         default:
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 19:10:57, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 19:10:59
+
+Run file:	C:\Users\Иван\Documents\proektCopy\main.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proektCopy\main.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x74B17F29 в функции $I10_OUTPUT(). Попытка записать данные по адресу NULL в модуле C:\Windows\System32\msvcrt.dll. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: Cmdre0, Thread: 0x4AB0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x74B17F29 in C:\Windows\System32\msvcrt.dll: $I10_OUTPUT()
+# 1 0x74B04A06 in C:\Windows\System32\msvcrt.dll: ungetwc()
+# 2 0x74AF87FD in C:\Windows\System32\msvcrt.dll: scanf()
+# 3 0x74AF8798 in C:\Windows\System32\msvcrt.dll: scanf()
+
+# 4 0x0041F93E in C:\Users\Иван\Documents\proektCopy\main.exe: graphic() at C:/Users/Иван/Documents/proektCopy/./graphics.cpp:65:
+
+     63:     printTitleForGraphicMode();
+     64:     Equation equation = {.coeff1 = 1, .coeff2 = -16, .coeff3 = -40};
+=>   65:     scanf("%lf %lf %lf", equation.coeff1, equation.coeff2, equation.coeff3);
+     66: 
+     67:     int lengthX = 1200;
+
+# 5 0x00420EDC in C:\Users\Иван\Documents\proektCopy\main.exe: main() at C:/Users/Иван/Documents/proektCopy/./main.cpp:26:
+
+     24:         case USERMODE: userMode();
+     25:             break;
+=>   26:         case GRAPHIC: graphic();
+     27:             break;
+     28:         default:
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 29 2026 19:10:57, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 29 2026 19:10:59
+
+Run file:	C:\Users\Иван\Documents\proektCopy\main.exe
+Directory:	C:\Users\Иван\Documents\proektCopy
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proekt\main.exe,
+
+ВНЕЗАПНО: Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x0042041A в функции drawParabola() в файле C:/Users/Иван/Documents/proekt/./graphics.cpp на строке 151 в модуле C:\Users\Иван\Documents\proekt\main.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x4518 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042041A in C:\Users\Иван\Documents\proekt\main.exe: drawParabola() at C:/Users/Иван/Documents/proekt/./graphics.cpp:151:
+
+    149:         double xScaled = scaleX * x;
+    150:         double y = scaleY * (coeffs[0] * xScaled * xScaled + coeffs[1] * xScaled + coeffs[2]);   
+=>  151:         txSetPixel(x + center.x, center.y - (int) y, TX_WHITE); 
+    152:     }   
+    153:     for(int x = 0; x < center.x; x++){
+
+# 1 0x0041FFAB in C:\Users\Иван\Documents\proekt\main.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proekt/./graphics.cpp:106:
+
+    104:     printCoordinateAxes(*center, lengthX, lengthY);
+    105:     drawAxisMarkings(*center, lengthX, lengthY, *scaleX, *scaleY);
+=>  106:     drawParabola(coeffs, *scaleX, *scaleY, *center, lengthX);
+    107:     drawCorrectAnswers(*center, *scaleX, x1, x2, sol1Str, sol2Str, lengthX, lengthY);
+    108:     drawZoomButtons(rectangleZoomInX, rectangleZoomOutX, lengthX,
+
+# 2 0x0041FA54 in C:\Users\Иван\Documents\proekt\main.exe: graphicMode() at C:/Users/Иван/Documents/proekt/./graphics.cpp:73:
+
+     71: 
+     72:     while(true){
+=>   73:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     74:         txSetFillColor(TX_BLACK);
+     75:         txClear();
+
+# 3 0x00421209 in C:\Users\Иван\Documents\proekt\main.exe: main() at C:/Users/Иван/Documents/proekt/./main.cpp:26:
+
+     24:         case USERMODE: userMode();
+     25:             break;
+=>   26:         case GRAPHIC: graphicMode();
+     27:             break;
+     28:         default:
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 30 2026 15:53:40, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 30 2026 15:53:43
+
+Run file:	C:\Users\Иван\Documents\proekt\main.exe
+Directory:	C:\Users\Иван\Documents\proekt
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proekt\main.exe,
+
+ВНЕЗАПНО: signal (8, 0x00): SIGFPE: Грубая ошибка в вычислениях. 
+
+Недопустимая операция с плавающей точкой.
+
+#1: Исключение EXCEPTION_FLT_INVALID_OPERATION (0xC0000090) при выполнении кода по адресу 0x0042041A в функции drawParabola() в файле C:/Users/Иван/Documents/proekt/./graphics.cpp на строке 151 в модуле C:\Users\Иван\Documents\proekt\main.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x4518 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042041A in C:\Users\Иван\Documents\proekt\main.exe: drawParabola() at C:/Users/Иван/Documents/proekt/./graphics.cpp:151:
+
+    149:         double xScaled = scaleX * x;
+    150:         double y = scaleY * (coeffs[0] * xScaled * xScaled + coeffs[1] * xScaled + coeffs[2]);   
+=>  151:         txSetPixel(x + center.x, center.y - (int) y, TX_WHITE); 
+    152:     }   
+    153:     for(int x = 0; x < center.x; x++){
+
+# 1 0x0041FFAB in C:\Users\Иван\Documents\proekt\main.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proekt/./graphics.cpp:106:
+
+    104:     printCoordinateAxes(*center, lengthX, lengthY);
+    105:     drawAxisMarkings(*center, lengthX, lengthY, *scaleX, *scaleY);
+=>  106:     drawParabola(coeffs, *scaleX, *scaleY, *center, lengthX);
+    107:     drawCorrectAnswers(*center, *scaleX, x1, x2, sol1Str, sol2Str, lengthX, lengthY);
+    108:     drawZoomButtons(rectangleZoomInX, rectangleZoomOutX, lengthX,
+
+# 2 0x0041FA54 in C:\Users\Иван\Documents\proekt\main.exe: graphicMode() at C:/Users/Иван/Documents/proekt/./graphics.cpp:73:
+
+     71: 
+     72:     while(true){
+=>   73:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     74:         txSetFillColor(TX_BLACK);
+     75:         txClear();
+
+# 3 0x00421209 in C:\Users\Иван\Documents\proekt\main.exe: main() at C:/Users/Иван/Documents/proekt/./main.cpp:26:
+
+     24:         case USERMODE: userMode();
+     25:             break;
+=>   26:         case GRAPHIC: graphicMode();
+     27:             break;
+     28:         default:
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 30 2026 15:53:40, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 30 2026 15:53:43
+
+Run file:	C:\Users\Иван\Documents\proekt\main.exe
+Directory:	C:\Users\Иван\Documents\proekt
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proekt\main.exe,
+
+ВНЕЗАПНО: Целочисленное деление на ноль.
+
+#1: Исключение EXCEPTION_INT_DIVIDE_BY_ZERO (0xC0000094) при выполнении кода по адресу 0x004210E0 в функции drawAxisMarkings() в файле C:/Users/Иван/Documents/proekt/./graphics.cpp на строке 292 в модуле C:\Users\Иван\Documents\proekt\main.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x35A4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004210E0 in C:\Users\Иван\Documents\proekt\main.exe: drawAxisMarkings() at C:/Users/Иван/Documents/proekt/./graphics.cpp:292:
+
+    290: 
+    291: void drawAxisMarkings(CoordinateCenter center, int lengthX, int lengthY, int scaleX, int scaleY){
+=>  292:     double lengthOfUnitSegmentX = 1 / scaleX;
+    293:     double lengthOfUnitSegmentY = 1 / scaleY;
+    294:     for(int x = center.x; x < lengthX; x += lengthOfUnitSegmentX){
+
+# 1 0x0041FF75 in C:\Users\Иван\Documents\proekt\main.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proekt/./graphics.cpp:105:
+
+    103: 
+    104:     printCoordinateAxes(*center, lengthX, lengthY);
+=>  105:     drawAxisMarkings(*center, lengthX, lengthY, *scaleX, *scaleY);
+    106:     drawParabola(coeffs, *scaleX, *scaleY, *center, lengthX);
+    107:     drawCorrectAnswers(*center, *scaleX, x1, x2, sol1Str, sol2Str, lengthX, lengthY);
+
+# 2 0x0041FA54 in C:\Users\Иван\Documents\proekt\main.exe: graphicMode() at C:/Users/Иван/Documents/proekt/./graphics.cpp:73:
+
+     71: 
+     72:     while(true){
+=>   73:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     74:         txSetFillColor(TX_BLACK);
+     75:         txClear();
+
+# 3 0x00421221 in C:\Users\Иван\Documents\proekt\main.exe: main() at C:/Users/Иван/Documents/proekt/./main.cpp:26:
+
+     24:         case USERMODE: userMode();
+     25:             break;
+=>   26:         case GRAPHIC: graphicMode();
+     27:             break;
+     28:         default:
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 30 2026 15:55:23, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 30 2026 15:55:26
+
+Run file:	C:\Users\Иван\Documents\proekt\main.exe
+Directory:	C:\Users\Иван\Documents\proekt
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proekt\main.exe,
+
+ВНЕЗАПНО: Целочисленное деление на ноль.
+
+#1: Исключение EXCEPTION_INT_DIVIDE_BY_ZERO (0xC0000094) при выполнении кода по адресу 0x004210E0 в функции drawAxisMarkings() в файле C:/Users/Иван/Documents/proekt/./graphics.cpp на строке 292 в модуле C:\Users\Иван\Documents\proekt\main.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x35A4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004210E0 in C:\Users\Иван\Documents\proekt\main.exe: drawAxisMarkings() at C:/Users/Иван/Documents/proekt/./graphics.cpp:292:
+
+    290: 
+    291: void drawAxisMarkings(CoordinateCenter center, int lengthX, int lengthY, int scaleX, int scaleY){
+=>  292:     double lengthOfUnitSegmentX = 1 / scaleX;
+    293:     double lengthOfUnitSegmentY = 1 / scaleY;
+    294:     for(int x = center.x; x < lengthX; x += lengthOfUnitSegmentX){
+
+# 1 0x0041FF75 in C:\Users\Иван\Documents\proekt\main.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proekt/./graphics.cpp:105:
+
+    103: 
+    104:     printCoordinateAxes(*center, lengthX, lengthY);
+=>  105:     drawAxisMarkings(*center, lengthX, lengthY, *scaleX, *scaleY);
+    106:     drawParabola(coeffs, *scaleX, *scaleY, *center, lengthX);
+    107:     drawCorrectAnswers(*center, *scaleX, x1, x2, sol1Str, sol2Str, lengthX, lengthY);
+
+# 2 0x0041FA54 in C:\Users\Иван\Documents\proekt\main.exe: graphicMode() at C:/Users/Иван/Documents/proekt/./graphics.cpp:73:
+
+     71: 
+     72:     while(true){
+=>   73:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     74:         txSetFillColor(TX_BLACK);
+     75:         txClear();
+
+# 3 0x00421221 in C:\Users\Иван\Documents\proekt\main.exe: main() at C:/Users/Иван/Documents/proekt/./main.cpp:26:
+
+     24:         case USERMODE: userMode();
+     25:             break;
+=>   26:         case GRAPHIC: graphicMode();
+     27:             break;
+     28:         default:
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 30 2026 15:55:23, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 30 2026 15:55:26
+
+Run file:	C:\Users\Иван\Documents\proekt\main.exe
+Directory:	C:\Users\Иван\Documents\proekt
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Иван\Documents\proekt\main.exe,
+
+ВНЕЗАПНО: Целочисленное деление на ноль.
+
+#1: Исключение EXCEPTION_INT_DIVIDE_BY_ZERO (0xC0000094) при выполнении кода по адресу 0x004210E6 в функции drawAxisMarkings() в файле C:/Users/Иван/Documents/proekt/./graphics.cpp на строке 293 в модуле C:\Users\Иван\Documents\proekt\main.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x1C08 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004210E6 in C:\Users\Иван\Documents\proekt\main.exe: drawAxisMarkings() at C:/Users/Иван/Documents/proekt/./graphics.cpp:293:
+
+    291: void drawAxisMarkings(CoordinateCenter center, int lengthX, int lengthY, int scaleX, int scaleY){
+    292:     double lengthOfUnitSegmentX = scaleX;
+=>  293:     double lengthOfUnitSegmentY = 1 / scaleY;
+    294:     for(int x = center.x; x < lengthX; x += lengthOfUnitSegmentX){
+    295:         txLine(x, center.y - 0.005 * lengthY, x, center.y + 0.005 * lengthY);
+
+# 1 0x0041FF75 in C:\Users\Иван\Documents\proekt\main.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proekt/./graphics.cpp:105:
+
+    103: 
+    104:     printCoordinateAxes(*center, lengthX, lengthY);
+=>  105:     drawAxisMarkings(*center, lengthX, lengthY, *scaleX, *scaleY);
+    106:     drawParabola(coeffs, *scaleX, *scaleY, *center, lengthX);
+    107:     drawCorrectAnswers(*center, *scaleX, x1, x2, sol1Str, sol2Str, lengthX, lengthY);
+
+# 2 0x0041FA54 in C:\Users\Иван\Documents\proekt\main.exe: graphicMode() at C:/Users/Иван/Documents/proekt/./graphics.cpp:73:
+
+     71: 
+     72:     while(true){
+=>   73:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     74:         txSetFillColor(TX_BLACK);
+     75:         txClear();
+
+# 3 0x00421215 in C:\Users\Иван\Documents\proekt\main.exe: main() at C:/Users/Иван/Documents/proekt/./main.cpp:26:
+
+     24:         case USERMODE: userMode();
+     25:             break;
+=>   26:         case GRAPHIC: graphicMode();
+     27:             break;
+     28:         default:
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 30 2026 16:00:28, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 30 2026 16:00:31
+
+Run file:	C:\Users\Иван\Documents\proekt\main.exe
+Directory:	C:\Users\Иван\Documents\proekt
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Иван\Documents\proekt\main.exe,
+
+ВНЕЗАПНО: Целочисленное деление на ноль.
+
+#1: Исключение EXCEPTION_INT_DIVIDE_BY_ZERO (0xC0000094) при выполнении кода по адресу 0x004210E6 в функции drawAxisMarkings() в файле C:/Users/Иван/Documents/proekt/./graphics.cpp на строке 293 в модуле C:\Users\Иван\Documents\proekt\main.exe. Спасибо _txUnhandledExceptionFilter(), что сообщил. Люблю его <3
+
+С помощью функции _set_se_translator() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400], Instance: 0x004F91DC (32-bit), Flags: CMdRe0, Thread: 0x1C08 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004210E6 in C:\Users\Иван\Documents\proekt\main.exe: drawAxisMarkings() at C:/Users/Иван/Documents/proekt/./graphics.cpp:293:
+
+    291: void drawAxisMarkings(CoordinateCenter center, int lengthX, int lengthY, int scaleX, int scaleY){
+    292:     double lengthOfUnitSegmentX = scaleX;
+=>  293:     double lengthOfUnitSegmentY = 1 / scaleY;
+    294:     for(int x = center.x; x < lengthX; x += lengthOfUnitSegmentX){
+    295:         txLine(x, center.y - 0.005 * lengthY, x, center.y + 0.005 * lengthY);
+
+# 1 0x0041FF75 in C:\Users\Иван\Documents\proekt\main.exe: graphOfTheEquation() at C:/Users/Иван/Documents/proekt/./graphics.cpp:105:
+
+    103: 
+    104:     printCoordinateAxes(*center, lengthX, lengthY);
+=>  105:     drawAxisMarkings(*center, lengthX, lengthY, *scaleX, *scaleY);
+    106:     drawParabola(coeffs, *scaleX, *scaleY, *center, lengthX);
+    107:     drawCorrectAnswers(*center, *scaleX, x1, x2, sol1Str, sol2Str, lengthX, lengthY);
+
+# 2 0x0041FA54 in C:\Users\Иван\Documents\proekt\main.exe: graphicMode() at C:/Users/Иван/Documents/proekt/./graphics.cpp:73:
+
+     71: 
+     72:     while(true){
+=>   73:         graphOfTheEquation(lengthX, lengthY, equation, &scaleX, &scaleY, &center);
+     74:         txSetFillColor(TX_BLACK);
+     75:         txClear();
+
+# 3 0x00421215 in C:\Users\Иван\Documents\proekt\main.exe: main() at C:/Users/Иван/Documents/proekt/./main.cpp:26:
+
+     24:         case USERMODE: userMode();
+     25:             break;
+=>   26:         case GRAPHIC: graphicMode();
+     27:             break;
+     28:         default:
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 175, Date: 2025-12-31 23:02:50 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\users\иван\downloads\codeblocks\mingw\include\txlib.h
+Compiled:	Aug 30 2026 16:00:28, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Aug 30 2026 16:00:31
+
+Run file:	C:\Users\Иван\Documents\proekt\main.exe
+Directory:	C:\Users\Иван\Documents\proekt
+
+--------------------------------------------------
